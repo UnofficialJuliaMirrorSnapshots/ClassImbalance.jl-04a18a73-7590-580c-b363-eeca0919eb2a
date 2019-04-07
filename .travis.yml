@@ -1,0 +1,34 @@
+##### Beginning of file
+
+env:
+    global:
+        - JULIA_DEBUG="all"
+
+git:
+    depth: 99999999
+
+julia:
+    - "0.7"
+    - "1.0"
+    - "nightly"
+
+language: julia
+
+matrix:
+    allow_failures:
+        - julia: "1.0"
+        - julia: "nightly"
+    fast_finish: true
+
+notifications:
+    email: false
+
+os:
+    - linux
+    - osx
+
+############################################################################
+
+script: ./ci/travis/script.sh
+
+##### End of file
