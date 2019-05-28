@@ -1,7 +1,7 @@
 name = "ClassImbalance"
 uuid = "04a18a73-7590-580c-b363-eeca0919eb2a"
 authors = ["Paul Stey <paulstey@gmail.com>", "Dilum Aluthge <dilum@aluthge.com>", "Brown Center for Biomedical Informatics <bcbi@brown.edu>",]
-version = "0.7.0-DEV"
+version = "0.7.0"
 
 [deps]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
@@ -13,7 +13,7 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
 [compat]
 Documenter = "~0.19"
-julia = "^1.0.0"
+julia = "^1.1.0"
 
 [extras]
 Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
